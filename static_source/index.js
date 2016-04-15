@@ -1,0 +1,30 @@
+$("#main_btn").click(function(){
+	$("#main").show(800);
+	$("#location").hide();
+	$("#menu").hide();
+	$("#about").hide();
+});
+
+$("#location_btn").click(function(){
+	$("#main").hide();
+	$("#location").show(800);
+	$("#menu").hide();
+	$("#about").hide();
+});
+$("#menu_btn").click(function(){
+	$("#main").hide();
+	$("#location").hide();
+	$("#menu").show(800);
+	$("#about").hide();
+});
+$("#about_btn").click(function(){
+	$("#main").hide();
+	$("#location").hide();
+	$("#menu").hide();
+	$("#about").show(800);
+});
+
+$("#main").show(800);
+$("#location").hide();
+$("#menu").hide();
+$("#about").hide();
